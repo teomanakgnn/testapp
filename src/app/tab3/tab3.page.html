@@ -6,12 +6,17 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<style>
+        section {
+        margin-top: 20px;
+      }
+</style>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+<ion-content [fullscreen]="true">
+<div #map id="map"></div>
+
+<section>
+<ion-button expand="block" color="danger"fill="solid">Lokasyon Göster</ion-button>
+</section>
+
 </ion-content>
