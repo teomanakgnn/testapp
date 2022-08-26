@@ -158,3 +158,15 @@ export class Tab1Page implements OnInit {
   }
   
 }
+
+
+
+/* 
+$ ionic cordova plugin add cordova-plugin-geolocation
+$ npm install @ionic-native/geolocation
+
+$ ionic cordova plugin add cordova-plugin-nativegeocoder 
+$ npm install @awesome-cordova-plugins/native-geocoder 
+
+
+*/
